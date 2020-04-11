@@ -1,16 +1,16 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "StatusKit"
+title = "PhoenixNetworks"
 
 [permalinks]
   incidents = "/incidents/:year/:month/:day/:slug/"
 
 [params]
-  defaultLogo = "https://www.netlify.com/img/press/logos/logomark.svg"
-  faviconsPath = "/images/favicon/"
+  defaultLogo = "https://cdn.phnx.rip/cdn/logo2.png"
+  faviconsPath = "https://cdn.phnx.rip/cdn/logo2.png"
 
 # List of systems monitored in this status page.
 # You'll be able to change their status every time
 # you open or update an incident.
 # Replace these examples with your own system names.
-systems = ["API", "CDN", "DNS", "Site delivery"]
+systems = ["Frontend", "Backend", "CDN", "Redirector", "Gameserver", "Voiceserver", "Mailserver", "Downloads"]
